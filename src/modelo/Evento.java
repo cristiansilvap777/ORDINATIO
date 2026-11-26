@@ -5,7 +5,7 @@ package modelo;
 import java.time.LocalDateTime;
 
 /**
- * Representa un evento programado dentro de la aplicacion DIA.
+ * Representa un evento programado dentro de la aplicacion ORDINATIO.
  *
  * Hereda los atributos y comportamientos generales de
  * Recordatorio y agrega informacion sobre el lugar y

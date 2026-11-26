@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.UUID;
 
 /**
- * Representa al usuario de la aplicacion DIA.
+ * Representa al usuario de la aplicacion ORDINATIO.
  *
  * Permite almacenar sus datos personales y administrar
  * la lista de recordatorios registrados.

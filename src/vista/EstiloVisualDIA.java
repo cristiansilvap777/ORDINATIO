@@ -9,7 +9,7 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.JTableHeader;
 
 /**
- * Centraliza los criterios visuales compartidos por las tablas de DÍA.
+ * Centraliza los criterios visuales compartidos por las tablas de ORDINATIO.
  * Utiliza una paleta suave para reducir el contraste excesivo y reserva
  * pequeños acentos cromáticos para comunicar estados y categorías.
  */

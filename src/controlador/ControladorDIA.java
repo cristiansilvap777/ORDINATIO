@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Map;
 
 /**
- * Controlador principal de la aplicacion DIA.
+ * Controlador principal de la aplicacion ORDINATIO.
  *
  * Coordina las operaciones entre el modelo y la persistencia.
  * Mantiene activa una sola sesion a la vez.

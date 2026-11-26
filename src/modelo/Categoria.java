@@ -9,7 +9,7 @@ import java.util.UUID;
 
 /**
  * Representa una categoria utilizada para clasificar
- * las tareas y eventos de la aplicacion DIA.
+ * las tareas y eventos de la aplicacion ORDINATIO.
  *
  * Implementa Serializable para permitir su almacenamiento
  * permanente mediante archivos.

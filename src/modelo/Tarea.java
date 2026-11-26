@@ -5,7 +5,7 @@ package modelo;
 import java.time.LocalDateTime;
 
 /**
- * Representa una tarea dentro de la aplicacion DIA.
+ * Representa una tarea dentro de la aplicacion ORDINATIO.
  *
  * Hereda los atributos y comportamientos generales
  * de la clase abstracta Recordatorio.

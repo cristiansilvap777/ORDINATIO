@@ -3,7 +3,7 @@ package vista;
 import controlador.ControladorDIA;
 
 /**
- * Ventana principal de DÍA.
+ * Ventana principal de ORDINATIO.
  *
  * Administra el acceso de usuarios y la navegación entre los formularios
  * creados con el GUI Builder de NetBeans.
@@ -40,7 +40,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         configurarEstadoInicial();
         cargarPerfilGuardado();
 
-        setTitle("DÍA - Gestor de Recordatorios");
+        setTitle("ORDINATIO — Personal Organizer");
         setSize(1100, 800);
         setMinimumSize(new java.awt.Dimension(950, 680));
         setResizable(true);
@@ -125,7 +125,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }
 
 
-    /** Configura el logotipo de DÍA en el encabezado y como icono de ventana. */
+    /** Configura el icono de ORDINATIO en el encabezado y como icono de ventana. */
     private void configurarIdentidadVisual() {
         java.net.URL recursoLogo = getClass().getResource("/recursos/logo_dia_icono.png");
         if (recursoLogo != null) {
@@ -136,7 +136,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             lblTitulo.setIconTextGap(10);
             setIconImage(original.getImage());
         }
-        lblTitulo.setText("DÍA");
+        lblTitulo.setText("ORDINATIO");
     }
 
     /**
@@ -156,8 +156,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         itemAcercaDe.addActionListener(e -> javax.swing.JOptionPane.showMessageDialog(
                 this,
-                "DÍA - Gestor de actividades personales\\nOrganiza tu tiempo, cumple tus objetivos.",
-                "Acerca de DÍA", javax.swing.JOptionPane.INFORMATION_MESSAGE));
+                "ORDINATIO — Personal Organizer\\nOrganiza tareas, eventos y recordatorios.",
+                "Acerca de ORDINATIO", javax.swing.JOptionPane.INFORMATION_MESSAGE));
 
         setJMenuBar(jMenuBar1);
     }
@@ -294,7 +294,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }
 
     /**
-     * Configura la identidad gráfica de DÍA. Centraliza los colores,
+     * Configura la identidad gráfica de ORDINATIO. Centraliza los colores,
      * tipografías y elementos visuales del encabezado, menú lateral y pantalla
      * de acceso.
      */
@@ -504,7 +504,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         itemAcercaDe = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("DÍA - Gestor de Recordatorios.");
+        setTitle("ORDINATIO — Personal Organizer");
         setName("VentanaPrincipal"); // NOI18N
         setPreferredSize(new java.awt.Dimension(1000, 650));
 
@@ -516,7 +516,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         lblTitulo.setFont(new java.awt.Font("Segoe UI", 1, 26)); // NOI18N
         lblTitulo.setForeground(new java.awt.Color(255, 255, 255));
-        lblTitulo.setText("DÍA");
+        lblTitulo.setText("ORDINATIO");
 
         lblDescripcion.setForeground(new java.awt.Color(255, 255, 255));
         lblDescripcion.setText("Organiza tu tiempo, cumple tus objetivos.");

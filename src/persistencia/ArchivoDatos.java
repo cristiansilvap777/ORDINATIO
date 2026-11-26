@@ -16,7 +16,7 @@ import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
 
 /**
- * Clase encargada de la persistencia de datos de DIA.
+ * Clase encargada de la persistencia de datos de ORDINATIO.
  *
  * Almacena varios perfiles Usuario en un unico archivo dia.dat.
  * Tambien permite recuperar el formato anterior, que contenia
